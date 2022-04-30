@@ -24,7 +24,7 @@ public class LionTest {
     @Test
     public void testGetKittensReturnsCountLion()  {
         Lion lion = new Lion("Самец", feline);
-        Mockito.when(lion.getKittens()).thenReturn(50);
+        Mockito.when(feline.getKittens()).thenReturn(50);
         Assert.assertEquals(50, lion.getKittens());
     }
 
